@@ -24,6 +24,9 @@ jobs:
         - name: Checkout file
           run: ls -ltra
         
+        - name: list files
+          run: tree
+        
 
 
         
